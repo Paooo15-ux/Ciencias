@@ -276,7 +276,7 @@ a:focus-visible {
 
 .integrantes__lista {
   display: grid;
-  grid-template-columns: repeat(3, 1fr);
+  grid-template-columns: repeat(4, 1fr);
   gap: 1.25rem;
 }
 
@@ -291,15 +291,15 @@ a:focus-visible {
 .persona__avatar {
   display: grid;
   place-items: center;
-  width: 84px;
-  height: 84px;
+  width: 70px;
+  height: 70px;
   margin: 0 auto 1rem;
   border-radius: 50%;
   object-fit: cover;
   background: linear-gradient(145deg, var(--fuerte), var(--oscuro));
   color: var(--blanco);
   font-family: var(--fuente-titulos);
-  font-weight: 800;
+  font-weight: 700;
   font-size: 2rem;
 }
 
